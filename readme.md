@@ -1,0 +1,1 @@
+Fazendo treino pratico de HTML e CSS usando de referencia, essa imagem do site: https://www.frontendmentor.io/solutions/order-summary-component-w-some-modern-css-fetures-ryWLv-3U5
