@@ -1,7 +1,7 @@
 body {
     font-family: 'Red Hat Display', sans-serif;
     background-image: url(./img/pattern-background-desktop.svg);   
-    height: 42vh;
+    height: 53vh;
     background-position: 50%;
     background-repeat: repeat-x;
     background-color: var(--pale-blue);
@@ -22,40 +22,121 @@ body {
 } 
 
 .banner { 
-    width: 400px;
-    margin: 80px auto;
+    width: 390px;
+    margin: 75px auto;
     border-radius: 15px;
-    background-color: white;
 }
 
 .banner img {
     border-radius: 15px 15px 0 0;  
-    height: 200px;
+    height: 175px;
     width: 100%;
     display: block;
     object-fit: cover;
 }
 
+.title-banner {
+    color: var(--dark-blue);
+    font-weight: 950;
+    margin: 25px 25px 0 25px;
+}
+
 .banner-title {
-    margin: 20px;
+    margin: 15px;
     text-align: center;
-    font-size: 15px;
-    
+    font-size: 15px; 
+    border-radius: 15px;
+    background-color: white;
+}
+
+.sub-text {
+    margin: 1rem 0;
 }
 
 .texts {
     font-size: 15px;
     text-align: center;
-    margin: 1rem 0;
+    margin: 0 20px 20px;
     line-height: 1.5;
     color: var(--desaturated-blue);
 }
 
-.banner-titles {
+.h2 {
     color: var(--dark-blue);
     font-weight: 800;
 }
 
-h2 {
+.annual-plan {
+    font-size: 88%;
+}
 
+.annual-plan {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.sub-banner {
+    border-radius: 0.5rem;
+    background-color: var(--very-pale-blue);
+    margin: 0 25px;
+}
+
+.sub-banner, .annual-plan {
+    justify-content: start;
+    border-radius: 0.5rem;
+    background-color: var(--very-pale-blue);
+    padding: 0.3rem;
+}
+
+.change {
+    color: var(--bright-blue);
+    text-decoration: underline;
+    font-weight: 850;
+    font-size: 11px;
+    padding-left: 4rem;
+}
+
+.change, .btn-one, .cancel {
+    cursor: pointer;
+}
+
+.details, .cancel {
+    padding-left: 1.5rem;
+}
+
+.title-annual-plan {
+    color: var(--dark-blue);
+    font-weight: 900;
+}
+
+p {
+    color: var(--desaturated-blue);
+    line-height: 1.4;
+}
+
+.img {
+    width: 100px;
+}
+
+.icon-music {
+    justify-content: space-between;
+}
+
+.btn-one {
+    background-color: var(--bright-blue);
+    padding: 15px;
+    margin: 20px 20px 0;
+    border-radius: 10px;
+    color: var(--very-pale-blue);
+    font-weight: 850;
+    font-size: 13px;
+}
+
+.cancel {
+    color: var(--desaturated-blue);
+    font-weight: 900;
+    font-size: 13px;
+    padding: 15px;
 }
