@@ -23,7 +23,7 @@ body {
 
 .banner { 
     width: 390px;
-    margin: 75px auto;
+    margin: 70px auto;
     border-radius: 15px;
 }
 
@@ -37,8 +37,9 @@ body {
 
 .title-banner {
     color: var(--dark-blue);
-    font-weight: 950;
-    margin: 25px 25px 0 25px;
+    font-weight: 900;
+    margin: 20px 20px 0 20px;
+    font-size: 20px;
 }
 
 .banner-title {
@@ -56,8 +57,7 @@ body {
 .texts {
     font-size: 15px;
     text-align: center;
-    margin: 0 20px 20px;
-    line-height: 1.5;
+    margin: 0 15px 15px;
     color: var(--desaturated-blue);
 }
 
@@ -67,7 +67,7 @@ body {
 }
 
 .annual-plan {
-    font-size: 88%;
+    font-size: 85%;
 }
 
 .annual-plan {
@@ -95,7 +95,7 @@ body {
     text-decoration: underline;
     font-weight: 850;
     font-size: 11px;
-    padding-left: 4rem;
+    padding-left: 5.3rem;
 }
 
 .change, .btn-one, .cancel {
@@ -108,12 +108,18 @@ body {
 
 .title-annual-plan {
     color: var(--dark-blue);
-    font-weight: 900;
+    font-weight: 800;
 }
 
 p {
     color: var(--desaturated-blue);
-    line-height: 1.4;
+    line-height: 1.5;
+}
+
+.numers {
+    font-size: 15px;
+    font-weight: 100;
+    margin-right: 3px;
 }
 
 .img {
