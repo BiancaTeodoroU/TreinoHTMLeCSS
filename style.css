@@ -1,7 +1,7 @@
 body {
     font-family: 'Red Hat Display', sans-serif;
     background-image: url(./img/pattern-background-desktop.svg);   
-    height: 53vh;
+    height: 52vh;
     background-position: 50%;
     background-repeat: repeat-x;
     background-color: var(--pale-blue);
@@ -36,10 +36,11 @@ body {
 }
 
 .title-banner {
-    color: var(--dark-blue);
+    font-family: 'Red hat Display';    
     font-weight: 900;
-    margin: 20px 20px 0 20px;
-    font-size: 20px;
+    font-size: 22px;
+    color: var(--dark-blue);
+    margin: 22px 22px 0 22px;
 }
 
 .banner-title {
@@ -55,15 +56,11 @@ body {
 }
 
 .texts {
-    font-size: 15px;
+    font-size: 100%;
     text-align: center;
-    margin: 0 15px 15px;
+    margin: 0 30px 20px 30px;
     color: var(--desaturated-blue);
-}
-
-.h2 {
-    color: var(--dark-blue);
-    font-weight: 800;
+    font-weight: 500;
 }
 
 .annual-plan {
@@ -94,8 +91,8 @@ body {
     color: var(--bright-blue);
     text-decoration: underline;
     font-weight: 850;
-    font-size: 11px;
-    padding-left: 5.3rem;
+    font-size: 12px;
+    padding-left: 5.8rem;
 }
 
 .change, .btn-one, .cancel {
@@ -107,18 +104,21 @@ body {
 }
 
 .title-annual-plan {
+    font-family: 'Red hat Display';  
+    font-size: 14px;
     color: var(--dark-blue);
-    font-weight: 800;
+    font-weight: 900;
 }
 
 p {
     color: var(--desaturated-blue);
-    line-height: 1.5;
+    line-height: 1.4;
 }
 
 .numers {
-    font-size: 15px;
-    font-weight: 100;
+    font-family: 'Red hat Display'; 
+    font-size: 14px;
+    font-weight: 400;
     margin-right: 3px;
 }
 
@@ -132,17 +132,22 @@ p {
 
 .btn-one {
     background-color: var(--bright-blue);
+    font-family: 'Red hat Display'; 
     padding: 15px;
-    margin: 20px 20px 0;
-    border-radius: 10px;
+    margin: 25px 25px 0;
+    box-shadow: 0px 14px 8px 2px hsl(245, 75%, 52%, 0.15);
+    -webkit-box-shadow: 0px 14px 8px 2px hsl(245, 75%, 52%, 0.15);
+    border-radius: 8px;
     color: var(--very-pale-blue);
-    font-weight: 850;
-    font-size: 13px;
+    font-weight: 900;
+    font-size: 14px;
 }
 
 .cancel {
     color: var(--desaturated-blue);
+    font-family: 'Red hat Display'; 
     font-weight: 900;
-    font-size: 13px;
-    padding: 15px;
+    font-size: 14px;
+    margin: 5px;
+    padding: 20px;
 }
